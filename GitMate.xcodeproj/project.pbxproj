@@ -12,6 +12,8 @@
 		F1849CA02C09D55700A7B163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849C9F2C09D55700A7B163 /* ViewController.swift */; };
 		F1849CA52C09D55800A7B163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1849CA42C09D55800A7B163 /* Assets.xcassets */; };
 		F1849CA82C09D55800A7B163 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F1849CA72C09D55800A7B163 /* Base */; };
+		F1849CB02C09DC6900A7B163 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849CAF2C09DC6900A7B163 /* SearchViewController.swift */; };
+		F1849CB22C09DCAC00A7B163 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F1849CA42C09D55800A7B163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1849CA72C09D55800A7B163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1849CA92C09D55800A7B163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1849CAF2C09DC6900A7B163 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F1849CA42C09D55800A7B163 /* Assets.xcassets */,
 				F1849CA62C09D55800A7B163 /* LaunchScreen.storyboard */,
 				F1849CA92C09D55800A7B163 /* Info.plist */,
+				F1849CAF2C09DC6900A7B163 /* SearchViewController.swift */,
+				F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */,
 			);
 			path = GitMate;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			files = (
 				F1849CA02C09D55700A7B163 /* ViewController.swift in Sources */,
 				F1849C9C2C09D55700A7B163 /* AppDelegate.swift in Sources */,
+				F1849CB02C09DC6900A7B163 /* SearchViewController.swift in Sources */,
+				F1849CB22C09DCAC00A7B163 /* FavoritesViewController.swift in Sources */,
 				F1849C9E2C09D55700A7B163 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
