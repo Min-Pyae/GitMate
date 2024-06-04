@@ -16,6 +16,9 @@
 		F1849CB22C09DCAC00A7B163 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */; };
 		F1849CB42C09E36200A7B163 /* GitMateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849CB32C09E36200A7B163 /* GitMateButton.swift */; };
 		F1849CB62C09EABA00A7B163 /* GitMateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1849CB52C09EABA00A7B163 /* GitMateTextField.swift */; };
+		F1F10F452C0F093200FF21C3 /* FollowersListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F10F442C0F093200FF21C3 /* FollowersListsViewController.swift */; };
+		F1F10F472C0F23AA00FF21C3 /* GitMateTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F10F462C0F23AA00FF21C3 /* GitMateTitleLabel.swift */; };
+		F1F10F492C0F248600FF21C3 /* GitMateBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F10F482C0F248600FF21C3 /* GitMateBodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		F1849CB32C09E36200A7B163 /* GitMateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateButton.swift; sourceTree = "<group>"; };
 		F1849CB52C09EABA00A7B163 /* GitMateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateTextField.swift; sourceTree = "<group>"; };
+		F1F10F442C0F093200FF21C3 /* FollowersListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListsViewController.swift; sourceTree = "<group>"; };
+		F1F10F462C0F23AA00FF21C3 /* GitMateTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateTitleLabel.swift; sourceTree = "<group>"; };
+		F1F10F482C0F248600FF21C3 /* GitMateBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateBodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +75,12 @@
 				F1849CA62C09D55800A7B163 /* LaunchScreen.storyboard */,
 				F1849CA92C09D55800A7B163 /* Info.plist */,
 				F1849CAF2C09DC6900A7B163 /* SearchViewController.swift */,
+				F1F10F442C0F093200FF21C3 /* FollowersListsViewController.swift */,
 				F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */,
 				F1849CB32C09E36200A7B163 /* GitMateButton.swift */,
 				F1849CB52C09EABA00A7B163 /* GitMateTextField.swift */,
+				F1F10F462C0F23AA00FF21C3 /* GitMateTitleLabel.swift */,
+				F1F10F482C0F248600FF21C3 /* GitMateBodyLabel.swift */,
 			);
 			path = GitMate;
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F10F452C0F093200FF21C3 /* FollowersListsViewController.swift in Sources */,
 				F1849CA02C09D55700A7B163 /* ViewController.swift in Sources */,
 				F1849CB42C09E36200A7B163 /* GitMateButton.swift in Sources */,
+				F1F10F472C0F23AA00FF21C3 /* GitMateTitleLabel.swift in Sources */,
+				F1F10F492C0F248600FF21C3 /* GitMateBodyLabel.swift in Sources */,
 				F1849C9C2C09D55700A7B163 /* AppDelegate.swift in Sources */,
 				F1849CB02C09DC6900A7B163 /* SearchViewController.swift in Sources */,
 				F1849CB62C09EABA00A7B163 /* GitMateTextField.swift in Sources */,
