@@ -12,6 +12,10 @@ class SearchViewController: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = GitMateTextField()
     let callToActionButton = GitMateButton(backgroundColor: .systemGreen, title: "Get Followers")
+    
+    var isUsernameEntered: Bool {
+        return !usernameTextField.text!.isEmpty
+    }
 
     
     override func viewDidLoad() {
@@ -32,6 +36,11 @@ class SearchViewController: UIViewController {
     
     // FUNCTION FOR PUSHING FOLLOWERS LITS VIEW CONTROLLER
     @objc func pushFollowersListViewController() {
+        guard isUsernameEntered else {
+            presentGitMateAlertViewController(title: "Empty Username", message: "Please enter a username. We need to know who to look for.", buttonTitle: "Ok")
+            return
+        }
+        
         let followersListViewController = FollowersListsViewController()
         followersListViewController.name = usernameTextField.text
         navigationController?.pushViewController(followersListViewController, animated: true)
