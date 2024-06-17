@@ -72,23 +72,47 @@
 		F1849C9A2C09D55700A7B163 /* GitMate */ = {
 			isa = PBXGroup;
 			children = (
+				F1C548E72C203534007409AB /* Views */,
+				F1C548E62C203528007409AB /* Controllers */,
+				F1C548E82C203556007409AB /* Extensions */,
 				F1849C9B2C09D55700A7B163 /* AppDelegate.swift */,
 				F1849C9D2C09D55700A7B163 /* SceneDelegate.swift */,
 				F1849C9F2C09D55700A7B163 /* ViewController.swift */,
 				F1849CA42C09D55800A7B163 /* Assets.xcassets */,
 				F1849CA62C09D55800A7B163 /* LaunchScreen.storyboard */,
 				F1849CA92C09D55800A7B163 /* Info.plist */,
+			);
+			path = GitMate;
+			sourceTree = "<group>";
+		};
+		F1C548E62C203528007409AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				F1849CAF2C09DC6900A7B163 /* SearchViewController.swift */,
 				F1F10F442C0F093200FF21C3 /* FollowersListsViewController.swift */,
 				F1849CB12C09DCAC00A7B163 /* FavoritesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1C548E72C203534007409AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				F1849CB32C09E36200A7B163 /* GitMateButton.swift */,
 				F1849CB52C09EABA00A7B163 /* GitMateTextField.swift */,
 				F1F10F462C0F23AA00FF21C3 /* GitMateTitleLabel.swift */,
 				F1F10F482C0F248600FF21C3 /* GitMateBodyLabel.swift */,
 				F1C3D6962C1084B100B48CBE /* GitMateAlertViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1C548E82C203556007409AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				F1C3D6982C10909200B48CBE /* UIViewControllerExtension.swift */,
 			);
-			path = GitMate;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
